@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+/* header */
+header nav ul{
+  display:flex;
+  justify-content:space-around;
+  background-color:#fff;
+  padding:20px 70px
+}
+header nav ul li{
+  font-size:20px;
+  font-family:cursive, sans-serif;
+}
+header nav ul li a{
+  color:#000;
+  text-decoration:none;
+}
+
+/* top_image */
+#top{
+  height:920px;
+  background:url(../img/top.jpg) no-repeat center;
+  background-size:cover;
+}
+.top_wrap h1{
+  font-size:60px;
+  color:#fff;
+  float:right;
+  margin:250px 160px;
+  font-family:"Comic Sans MS", sans-serif;
+}
+
+/* section_title */
+.section_title{
+  font-size:45px;
+  margin: 80px 0 50px 0;
+  text-align:center;
+  color:#000;
+}
+
+/* menu */
+#menu{
+  width:80%;
+  margin:100px auto;
+}
+.menu_subtitle{
+  font-size: 33px;
+  margin: 100px 0 50px 0;
+  text-align: center;
+  color:rgb(57, 56, 56);
+}
+.menu_navigation ul{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(203, 216, 226);
+  padding:20px 0;
+}
+.menu_navigation ul li{
+  font-size: 20px;
+  font-family: cursive, sans-serif;
+}
+.menu_navigation ul li a{
+  color: #000;
+  text-decoration:none;
+}
+
+/* menu1 */
+#menu_1{
+  margin:150px auto;
+}
+.main_item1{
+  display: flex;
+  justify-content:space-around;
+}
+.main_left1 img{
+  width: 70%;
+  height: auto;
+}
+.main_right1 img{
+  width: 70%;
+  height: auto;
+}
+.main_left1, .main_right1{
+  text-align:center;
+  margin-bottom:70px;
+}
+.main_item2{
+  display: flex;
+  justify-content:space-around;
+}
+.main_left2 img{
+  width: 70%;
+  height: auto;
+}
+.main_right2 img{
+  width: 70%;
+  height: auto;
+}
+.main_left2, .main_right2{
+  text-align: center;
+}
+#menu_1 p{
+  margin-top:30px;
+}
+#menu_1 p, #menu_2 p, #menu_3 p{
+  font-family:cursive, sans-serif;
+}
+
+/* menu2 */
+#menu_2{
+  margin:150px auto;
+}
+.salad_item1{
+  display:flex;
+}
+.salad_left1 img{
+  width:70%;
+  height:auto;
+}
+.salad_right1 img{
+  width:70%;
+  height:auto;
+}
+.salad_left1,.salad_right1{
+  text-align:center;
+  margin-bottom:30px;
+}
+.salad_left1, .salad_right1 p{
+  margin-top:40px;
+}
+.salad_item2{
+  display: flex;
+}
+.salad_left2 img{
+  width: 60%;
+  height: auto;
+}
+.salad_right2 img{
+  width: 60%;
+  height: auto;
+  margin-top:30px;
+}
+.salad_right2 p{
+  margin-top:50px;
+}
+.salad_left2, .salad_right2{
+  text-align:center;
+}
+
+/* menu3 */
+#menu_3{
+  margin:150px auto;
+}
+.cake_item{
+  display:flex;
+  margin: 0 auto;
+}
+.cake_left img{
+  width:70%;
+  height:auto;
+}
+.cake_right img{
+  width:73%;
+  height:auto;
+}
+.cake_left, .cake_right{
+  text-align:center;
+}
+.cake_right p{
+  margin-top:10px;
+}
+.cake_item h4{
+  font-size:20px;
+  font-family:cursive, sans-serif;
+}
+
+/* menu4 */
+#menu_4{
+  margin:150px auto;
+}
+.drink_menu{
+  border: solid #000 2px;
+  padding: 20px 0;
+  margin: 0 300px;
+}
+.drink_menu p{
+  font-size: 18px;
+  line-height: 2.5;
+  text-align: center;
+}
+.drink_menu small{
+  color: #555;
+  line-height: 2.5;
+  display: block;
+  text-align: center;
+}
+
+/* price */
+#price{
+  width:80%;
+  margin:100px auto;
+}
+.price_wrap table{
+  border:double #000 10px;
+  width:100%;
+  text-align:center;
+}
+.price_wrap table tr{
+  border:solid #000 2px;
+  padding: 10px;
+}
+.price_wrap table th{
+  border:solid #000 2px;
+  padding:10px;
+}
+.price_wrap table td{
+  border:solid #000 2px;
+  padding:10px;
+  vertical-align:middle;
+}
+
+/* news */
+#news{
+  width:80%;
+  margin:100px auto;
+}
+.news_wrap{
+  max-width:450px;
+  margin:0 auto;
+}
+.news_wrap p{
+  line-height:2.5;
+}
+
+/* contact */
+#contact{
+  background:rgb(241, 241, 241);
+}
+#contact h2{
+  padding:40px 0;
+}
+.form{
+  width:70%;
+  margin:0 auto;
+}
+label{
+  display:inline-block;
+  width:30%;
+  line-height:2;
+  font-family:cursive, sans-serif;
+}
+input, textarea{
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width:65%;
+  margin-bottom:15px;
+}
+input{
+  padding:6px;
+}
+textarea{
+  vertical-align:top;
+  height:200px;
+}
+.button_submit{
+  text-align:center;
+}
+.button{
+  padding:10px 50px;
+  background-color:#555;
+  margin:50px 0;
+  font-weight:bold;
+  border:none;
+  color:#fff;
+  font-family:cursive, sans-serif;
+}
+
+/* footer */
+#footer{
+  background-color:#444;
+  padding:50px;
+  text-align:center;
+  color:#fff;
+}
